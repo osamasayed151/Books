@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="RatingBar"  parent="android:style/Widget.Material.RatingBar.Small">>
+        <item name="colorControlNormal">@color/divider</item>
+        <item name="colorControlActivated">#FF9800</item>
+    </style>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welecom_ACT"
+    android:orientation="vertical"
+    android:background="#2E4F3C">
+
+    <ImageView
+        android:id="@+id/welecom_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/bookimg"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/txttop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Everything you need is here"
+        android:textColor="@color/icons"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtbottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="best book"
+        android:textColor="@color/icons"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+</LinearLayout>
